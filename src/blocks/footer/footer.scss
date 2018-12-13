@@ -1,5 +1,8 @@
 .footer {
   
+  height: 163px;
+  margin-bottom: 20px;
+  margin-top: 150px;
   &__content {
     
   }
@@ -9,14 +12,22 @@
   }
   
   &__sitemap {
+    margin-top: 34px;
+    float: left;
     
   }
   
   &__link {
-    
+    font-size: 18px;
+    color: #000;
+    padding-left: 30px;
+
+    &:first-child{
+      padding-left: 0;
+    }
   }
   
   &__copyright {
-    
+    margin-top: 84px;
   }
 }
